@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dashboard</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="head">
+                <h1 class="head-title">SaaS Kit</h1>
+            </div>
+            <div class="user-info">
+                <img class="user-photo" src="./images/user-img.png" />
+                <div class="user-data">
+                    <span class="user-name">Sierra Ferguson</span>
+                    <span class="user-email">s.ferguson@gmail.com</span>
+                </div>
+
+            </div>
+            <div class="menu">
+                <div class="main">
+                    <div class="item-menu">
+                        <img class="item-menu-img" src="./images/Vector 1.png" style="height: 15px;" />
+                        <span class="item-menu-text dashboard">Dashboard</span>
+                    </div>
+                    <div class="item-menu">
+                        <img class="item-menu-img" src="./images/tasks.png" style="height: 15px;" />
+                        <span class="item-menu-text">Tasks</span>
+                    </div>
+                    <div class="item-menu">
+                        <img class="item-menu-img" src="./images/email.png" style="height: 15px;" />
+                        <span class="item-menu-text ">Email</span>
+                    </div>
+                    <div class="item-menu">
+                        <img class="item-menu-img" src="./images/contacts.png" style="height: 15px;" />
+                        <span class="item-menu-text">Contacts</span>
+                    </div>
+                    <div class="item-menu">
+                        <img class="item-menu-img" src="./images/chat.png" style="height: 15px;" />
+                        <span class="item-menu-text">Chat</span>
+                    </div>
+                    <div class="item-menu">
+                        <img class="item-menu-img" src="./images/deals.png" style="height: 15px;" />
+                        <span class="item-menu-text">Deals</span>
+                    </div>
+                    <hr class="divider" />
+                    <div class="item-menu settings">
+                        <img class="item-menu-img" src="./images/settings.png" style="height: 15px;" />
+                        <span class="item-menu-text">Settings</span>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="item-menu footer-sidebar">
+                        <img class="item-menu-img" src="./images/toggle.png" style="height: 15px;" />
+                        <span class="item-menu-text toggle">Toggle sidebar</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-wrapper">
+            <div class="search-bar">
+                <div class="search-text-wrapper">
+                    <svg class="search-symbol" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.9167 9.66667H10.2583L10.025 9.44167C10.8417 8.49167 11.3333 7.25833 11.3333 5.91667C11.3333 2.925 8.90833 0.5 5.91667 0.5C2.925 0.5 0.5 2.925 0.5 5.91667C0.5 8.90833 2.925 11.3333 5.91667 11.3333C7.25833 11.3333 8.49167 10.8417 9.44167 10.025L9.66667 10.2583V10.9167L13.8333 15.075L15.075 13.8333L10.9167 9.66667ZM5.91667 9.66667C3.84167 9.66667 2.16667 7.99167 2.16667 5.91667C2.16667 3.84167 3.84167 2.16667 5.91667 2.16667C7.99167 2.16667 9.66667 3.84167 9.66667 5.91667C9.66667 7.99167 7.99167 9.66667 5.91667 9.66667Z"
+                            fill="#C2CFE0" />
+                    </svg>
+
+                    <span class="search-text"> Global search</span>
+                </div>
+                <div class="bell">
+                    <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M15.5 16.2071V16.5H0.5V16.2071L2.35355 14.3536L2.5 14.2071V14V9C2.5 6.09437 4.02219 3.78092 6.61528 3.16653L7 3.07538V2.68V2C7 1.44614 7.44614 1 8 1C8.55386 1 9 1.44614 9 2V2.68V3.07506L9.38434 3.16644C11.9681 3.78076 13.5 6.10482 13.5 9V14V14.2071L13.6464 14.3536L15.5 16.2071ZM9.41352 18.5C9.20605 19.0806 8.64884 19.5 8 19.5C7.34433 19.5 6.79074 19.0813 6.58536 18.5H9.41352Z"
+                            fill="white" stroke="#C2CFE0" />
+                    </svg>
+                    <svg class="red-dot" width="10" height="10" viewBox="0 0 10 10" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="5" cy="5" r="4.5" fill="#F7685B" stroke="white" />
+                    </svg>
+                </div>
+            </div>
+            <div class="content">
+                <div class="task-container">
+                    <div class="task-inner">
+                        <div class="week">
+                            <div class="week-text">
+                                <span>8 tasks completed out of 10</span>
+                            </div>
+                            <div class="week-select">
+                                <span class="show">Show:</span>
+                                <span class="this-week">This week</span>
+                                <img class="week-img" src="./images/Polygon.png" />
+                            </div>
+                        </div>
+                        <div class="status-container">
+                            <hr class="status-completed" />
+                            <hr class="status-to-do" />
+                        </div>
+                        <span class="date-text">23 December, Sunday</span>
+                        <div class="calendar">
+                            <div class="dates">
+                                <span>Sun</span>
+                                <span class=" dates blue-number">23</span>
+                            </div>
+                            <div class="dates">
+                                <span class="mon">Mon </span>
+                                <span class="mon mon-date dates">24</span>
+                            </div>
+                            <div class="dates">
+                                <span>Tue</span>
+                                <span class="dates number">25</span>
+                            </div>
+                            <div class="dates">
+                                <span>Wed</span>
+                                <span class="dates number">26</span>
+                            </div>
+                            <div class="dates">
+                                <span>Thu</span>
+                                <span class="dates number">27</span>
+                            </div>
+                            <div class="dates">
+                                <span>Fri</span>
+                                <span class="number">28</span>
+                            </div>
+                            <div class="dates">
+                                <span>Sat</span>
+                                <span class="dates number">29</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="data-line">
+                        <hr>
+                    </div>
+                    <div class="task-inner">
+                        <div class="persons">
+                            <div class="person">
+                                <div class="main-event">
+                                    <span class="deal">Send benefit review by Sunday</span>
+                                    <span class="event">Reminder</span>
+                                </div>
+                                <div class="due-date">
+                                    <span class="due">Due date:</span>
+                                    <span class="event-data">December 23, 2018</span>
+                                </div>
+                                <div class="personality">
+                                    <div class="info">
+                                        <img class="img-person" src="./images/boy.png" />
+                                        <span class="person-name">George Fields</span>
+                                    </div>
+                                    <div class="other-info">
+                                        <button type="button" class="button-complete">Completed</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="person">
+                                <div class="main-event">
+                                    <span class="deal">Invite to office meet-up</span>
+                                    <span class="event">Call</span>
+                                </div>
+                                <div class="due-date">
+                                    <span class="due">Due date:</span>
+                                    <span class="event-date">December 23, 2018</span>
+                                </div>
+                                <div class="personality">
+                                    <div class="info">
+                                        <img class="img-person" src="./images/2222.png" />
+                                        <span class="person-name">Rebecca Moore</span>
+                                    </div>
+                                    <div class="other-info">
+                                        <img class="img-pen" src="./images/pen.png" />
+                                        <img class="img-trash" src="./images/Vector.png" />
+                                        <button type="button" class="button-ended">Ended</button>
+                                    </div>
+                                </div>
+                                <img class="img-hand" src="./images/image (1).png" />
+                            </div>
+                            <div class="person">
+                                <div class="main-event">
+                                    <span class="deal">Office meet-up</span>
+                                    <span class="event">Event</span>
+                                </div>
+                                <div class="due-date">
+                                    <span class="due">Due date:</span>
+                                    <span class="event-date">December 23, 2018</span>
+                                </div>
+                                <div class="personality">
+                                    <div class="info">
+                                        <img class="img-person" src="./images/333.png" />
+                                        <span class="person-name">Lindsey Stroud</span>
+                                    </div>
+                                    <div class="other-info">
+                                        <button type="button" class="button-complete">Completed</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <button class="button-bottom" type="button" class="button-bottom">Show more</button>
+                </div>
+                <div class="graphic">
+                    <div class="deals-main">
+                        <div class="deals-content">
+                            <div class="txt-show">
+                                <span class="txt">Deals</span>
+                                <div class="deals-show">
+                                    <span class="show-txt">Show: </span>
+                                    <span class="time-text">Monthly</span>
+                                    <img class="img-txt" src="./images/Polygon.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="divider new" />
+                        <div class="graph">
+                            <div class="round-blue">
+                                <img class="ellipse blue" src="./images/Ellipse blue.png" />
+                                <span class="txt-closed">Closed deals</span>
+                            </div>
+                            <img src="./images/graphic.png" />
+                        </div>
+                    </div>
+                    <div class="tasks-main">
+                        <div class="task-content">
+                            <div class="txt-show">
+                                <span class="txt">Tasks</span>
+                                <div class="deals-show">
+                                    <span class="show-txt">Show: </span>
+                                    <span class="time-text">This month</span>
+                                    <img class="img-txt" src="./images/Polygon.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="divider new" />
+                        <div class="sixty">
+                            <img class="procent" src="./images/60proc.png" />
+                            <div class="colors">
+                                <div class="color">
+                                    <img class="ellipse" src="./images/Ellipse yellow.png" />
+                                    <span class="color-txt">Active</span>
+                                </div>
+                                <div class="color">
+                                    <img class="ellipse" src="./images/Ellipse green.png" />
+                                    <span class="color-txt">Completed</span>
+                                </div>
+                                <div class="color">
+                                    <img class="ellipse" src="./images/Ellipse red.png" />
+                                    <span class="color-txt">Ended</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
